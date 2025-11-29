@@ -1,0 +1,59 @@
+site_name: KCD Kuala Lumpur
+site_url: https://kcd-kuala-lumpur.github.io
+site_description: All about kubernetes, cloud native, CNCF and KCD Kuala Lumpur
+site_author: KCD Kuala Lumpur Organizers
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - blog:
+      blog_dir: blog
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: false
+      locale: en
+      strict: true
+      type: date
+
+theme:
+  name: material
+  #favicon: assets/image/favicon.ico
+  logo: assets/image/kcd-logo.svg
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - header.autohide
+    - navigation.top
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
