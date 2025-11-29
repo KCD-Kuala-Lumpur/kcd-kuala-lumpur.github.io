@@ -1,0 +1,9 @@
+.github/
+.gitignore
+.editorconfig
+.DS_Store
+site/
+.vscode/
+.idea/
+*.pyc
+*.log

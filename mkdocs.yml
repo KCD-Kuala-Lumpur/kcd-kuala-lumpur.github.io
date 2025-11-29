@@ -18,8 +18,6 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 
 plugins:
-  - blog:
-      blog_dir: blog
   - search
   - git-revision-date-localized:
       enable_creation_date: true
@@ -30,8 +28,8 @@ plugins:
 
 theme:
   name: material
-  #favicon: assets/image/favicon.ico
-  logo: assets/image/kcd-logo.svg
+  favicon: assets/image/favicon.ico
+  logo: assets/image/kcd-logo-white.svg
   features:
     - content.code.copy
     - content.code.annotate
@@ -57,3 +55,13 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+
+nav:
+  - Home: index.md
+  - Get Your Tickets: tickets.md
+  - Call for Speakers:
+    - Submit Your Session: call-for-speakers/submission.md
+    - Submission Guideline: call-for-speakers/submission-guideline.md
+    - Session Type: call-for-speakers/session-type.md
+    - Session Category: call-for-speakers/session-category.md
+  - Glossary: glossary.md
