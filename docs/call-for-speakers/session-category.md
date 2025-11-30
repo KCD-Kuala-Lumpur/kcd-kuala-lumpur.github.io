@@ -1,4 +1,4 @@
-# Submission Category
+# Session Category
 
 ## AI / ML
 This category covers the latest advancements and best practices in AI and ML within cloud native environments, exploring innovative applications, tools, and techniques for effective implementation.

@@ -19,7 +19,7 @@ There are plenty of ways to give a presentation about projects and technologies 
 
 ## Guideline to submit
 
-Refer to [Submission Guideline](./submission-guideline.md), [Session Type](./session-type.md) and [Session Category](./session-category.md)
+Refer to [Submission Guideline](./submission-guideline.md), [Session Type](./session-type.md), [Session Category](./session-category.md) and [Session Difficulty Level](./session-difficulty.md)
 
 ## How to Give a Great Talk
 

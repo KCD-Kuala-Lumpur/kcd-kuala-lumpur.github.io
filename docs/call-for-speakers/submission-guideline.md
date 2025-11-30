@@ -32,4 +32,4 @@ Avoid sales or marketing pitches and discussing unlicensed or potentially closed
 
 ## Attach slides (optional)
 
-Attach slides with your submission as that could help us better understand your session. This is optional, but we highlty encourage you to upload the slides
+Attach slides with your submission as that could help us better understand your session. This is optional, but we highly encourage you to upload the slides

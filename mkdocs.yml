@@ -25,6 +25,8 @@ plugins:
       locale: en
       strict: true
       type: date
+  - open-in-new-tab:
+      add_icon: true
 
 theme:
   name: material
@@ -64,4 +66,5 @@ nav:
     - Submission Guideline: call-for-speakers/submission-guideline.md
     - Session Type: call-for-speakers/session-type.md
     - Session Category: call-for-speakers/session-category.md
+    - Session Difficult Level: call-for-speakers/session-difficulty.md
   - Glossary: glossary.md

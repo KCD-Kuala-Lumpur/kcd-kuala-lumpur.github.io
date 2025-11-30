@@ -1,0 +1,6 @@
+.DS_Store
+site/
+.vscode/
+.idea/
+*.pyc
+*.log
