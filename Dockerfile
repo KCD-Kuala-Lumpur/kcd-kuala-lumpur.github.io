@@ -1,6 +1,6 @@
-FROM squidfunk/mkdocs-material:9.7.0@sha256:980e11fed03b8e7851e579be9f34b1210f516c9f0b4da1a1457f21a460bd6628
+FROM ghcr.io/astral-sh/uv:python3.14-alpine@sha256:6dad282698cad427e393d29b241ce6f668ace9b7d1374f3cc2bf53f644992299
 
-COPY requirements.txt .
-
-RUN apk add git && \
-  pip install --root-user-action=ignore --require-hashes -r requirements.txt
+WORKDIR /mkdocs
+RUN apk add git
+ENTRYPOINT ["uv"]
+CMD ["run", "mkdocs", "serve"]
