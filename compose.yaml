@@ -1,0 +1,18 @@
+services:
+  mkdocs:
+    build: .
+    ports:
+      - "8000:8000"
+    develop:
+      watch:
+        - action: sync+restart # Temporarily set to `sync+restart`. Once auto reload is fixed in mkdocs, switch back to `sync`
+          path: .
+          target: /mkdocs
+          ignore:
+            - .venv/
+            - .editorconfig
+            - .gitignore
+            - 3RDPARTYLICENSES
+            - README.md
+        - action: rebuild # Automatically rebuild the image if dependencies change by checking uv.lock
+          path: uv.lock
